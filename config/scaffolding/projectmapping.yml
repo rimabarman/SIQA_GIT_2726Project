@@ -1,15 +1,13 @@
 version: "1.0"
 projectName: SIQA_GIT_2726Project
 runtimes:
-- runtimeAlias: Cloud Designtime
-  assets:
-  - name: fld_131724708_stage00.projects.flb11010838d594866a1319e440f16e206.integrations:Wmio_Calls_Extended_TppService
-    type: flow
-    stepId: /0
-    reference: fld_131724708_stage00.projects.flb11010838d594866a1319e440f16e206.WmPackageServiceProvider.DADA_ExtendedProperty:maxToStringLength
 - runtimeAlias: SIQA_ERT_2726
   assets:
   - name: fld_131724708_stage00.projects.flb11010838d594866a1319e440f16e206.integrations:Wmio_Calls_TPPService
     type: flow
     stepId: /0
     reference: fld_131724708_stage00.projects.flb11010838d594866a1319e440f16e206.WmPackageServiceProvider.services:add3Ints
+  - name: fld_131724708_stage00.projects.flb11010838d594866a1319e440f16e206.integrations:Wmio_Calls_Extended_TppService
+    type: flow
+    stepId: /0
+    reference: fld_131724708_stage00.projects.flb11010838d594866a1319e440f16e206.WmPackageServiceProvider.DADA_ExtendedProperty:maxToStringLength
